@@ -4,10 +4,11 @@ FROM nginx
 
 LABEL maintainer="OlivierKouokam (kouokamcarl@gmail.com)"
 
-RUN apt-get update && \
-    apt-get upgrade -y && \
-    apt-get install -y curl && \
-    apt-get install -y git
+#RUN apt-get update && \
+#    apt-get upgrade -y && \
+#    apt-get install -y curl && \
+#    apt-get install -y git
+RUN apt-get update && apt-get upgrade -y && apt-get install -y curl && apt-get install -y git
 
 EXPOSE 80
 
