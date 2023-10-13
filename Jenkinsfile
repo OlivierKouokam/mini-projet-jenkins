@@ -6,7 +6,7 @@ pipeline {
   environment {
       IMAGE_NAME = "static-website"
       DOCKER0_INTERFACE = "172.17.0.1"
-      APP_EXPOSED_PORT = "8080"
+      APP_EXPOSED_PORT = "8090"
       APP_NAME = "jenkins-miniproject"
       IMAGE_TAG = "latest"
       STAGING = "${APP_NAME}-staging"
